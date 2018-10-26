@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+ROOT=${HOME}/.wtmux
+NAME=$1
+
+[ -d ${ROOT} ] || git clone https://github.com/wxnacy/wtmux ${ROOT}
+
+
+echo ''
+echo 'Run the following command to quickly use wvim'
+echo ''
+if [[ -d ${HOME}/.tmux || -f ${HOME}/.tmux ]];then
+    echo "  mv ${HOME}/.tmux ${HOME}/.tmux.old"
+fi
+
+if [[ -d ${HOME}/.tmux.conf || -f ${HOME}/.tmux.conf ]];then
+    echo "  mv ${HOME}/.tmux.conf ${HOME}/.tmux.conf.old"
+fi
+echo "  ln -sf ${ROOT} ${HOME}/.tmux"
+echo "  ln -sf ${ROOT}/tmux.conf ${HOME}/.tmux.conf"
+echo ""
+# echo "If you want to use plugins, Please run"
+# echo ""
+# echo "  ln -sf ${ROOT}/vimrc.pathogen ${HOME}/.vimrc"
+# echo "  cd ${ROOT} && ./install_plugin"
+# echo ""
+
+
