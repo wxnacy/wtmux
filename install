@@ -19,10 +19,3 @@ fi
 echo "  ln -sf ${ROOT} ${HOME}/.tmux"
 echo "  ln -sf ${ROOT}/tmux.conf ${HOME}/.tmux.conf"
 echo ""
-# echo "If you want to use plugins, Please run"
-# echo ""
-# echo "  ln -sf ${ROOT}/vimrc.pathogen ${HOME}/.vimrc"
-# echo "  cd ${ROOT} && ./install_plugin"
-# echo ""
-
-
