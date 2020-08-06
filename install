@@ -3,7 +3,7 @@
 ROOT=${HOME}/.wtmux
 NAME=$1
 
-[ -d ${ROOT} ] || git clone https://github.com/wxnacy/wtmux ${ROOT}
+[ -d ${ROOT} ] || git clone --recursive https://github.com/wxnacy/wtmux ${ROOT}
 
 
 echo ''
