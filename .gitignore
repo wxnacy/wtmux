@@ -148,7 +148,4 @@ var/
 
 # tmux begin
 resurrect/*
-plugins/tmux-sensible/
-plugins/tmux-resurrect/
-plugins/tmux-continuum/
-# tmux end
+plugins/tmux-*
