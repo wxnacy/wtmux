@@ -4,6 +4,9 @@ ROOT=${HOME}/.wtmux
 
 [ -d "${ROOT}" ] || git clone --recursive https://github.com/wxnacy/wtmux "${ROOT}"
 
+# 安装依赖
+brew install fpp        # for tmux-fpp
+brew install urlview    # for tmux-urlview
 
 echo ''
 echo 'Run the following command to quickly use wtmux'
