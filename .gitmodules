@@ -4,3 +4,6 @@
 [submodule "plugins/catppuccin"]
 	path = plugins/catppuccin
 	url = https://github.com/catppuccin/tmux.git
+[submodule "plugins/fzf-url"]
+	path = plugins/fzf-url
+	url = https://github.com/wfxr/tmux-fzf-url

@@ -6,7 +6,8 @@ ROOT=${HOME}/.wtmux
 
 # 安装依赖
 brew install fpp        # for tmux-fpp
-brew install urlview    # for tmux-urlview
+# brew install urlview    # for tmux-urlview
+brew install fzf        # for tmux-fzf-url
 
 echo ''
 echo 'Run the following command to quickly use wtmux'
