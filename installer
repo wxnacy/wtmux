@@ -8,6 +8,9 @@ ROOT=${HOME}/.wtmux
 brew install fpp        # for tmux-fpp
 # brew install urlview    # for tmux-urlview
 brew install fzf        # for tmux-fzf-url
+# for tmux-logging
+TMUX_CACHE_HOME="${HOME}/.local/state/tmux"
+[ -d "${TMUX_CACHE_HOME}" ] || mkdir -p "${TMUX_CACHE_HOME}"
 
 echo ''
 echo 'Run the following command to quickly use wtmux'
